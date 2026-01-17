@@ -1,0 +1,12 @@
+venv/
+.venv/
+activate/
+__pycache__/
+*.pth
+*.pt
+*.onnx
+*.png
+*.jpg
+*.npy
+*.npz
+.DS_Store
