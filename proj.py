@@ -199,7 +199,7 @@ def train_model(data_dir, train_ratio=0.8):
             best_test_loss = test_loss
             patience_counter = 0
             torch.save(model.state_dict(), MODEL_PATH)
-            print(f"  ✓ Model saved (best test loss: {best_test_loss:.4f})")
+            print(f"Model saved (best test loss: {best_test_loss:.4f})")
         else:
             patience_counter += 1
             if patience_counter >= patience:
